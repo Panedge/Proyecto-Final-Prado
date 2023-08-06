@@ -1,0 +1,54 @@
+@import "../Utilidades/mixin";
+@import "../Utilidades/Extend";
+@import "../Utilidades/variables";
+
+// Header
+
+header {
+    @extend %estilo-header-pages;
+}
+
+// Estilo del main
+
+.main-ofertas {
+    .titulo-ofertas-principal {
+        .h1-ofertas {
+            text-align: center;
+            padding: 30px;
+        }
+    }
+
+    .container-imagenes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        gap: 120px;
+        padding: 50px;
+
+        .item {
+            .descuento {
+                color: purple
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+
+            p{
+                text-align: center;
+            }
+
+            button {
+                @include estilo-boton;
+            }
+        }
+    }
+}
+
+// Estilos del footer
+
+footer {
+    @extend %estilo-footer;
+}

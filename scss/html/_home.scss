@@ -1,0 +1,121 @@
+@import "../Utilidades/mixin";
+@import "../Utilidades/Extend";
+@import "../Utilidades/variables";
+
+// Estilos del header
+
+header {
+    @extend %estilo-header;
+}
+
+// Estilos del main
+
+.main-index {
+    .container-imagenes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        gap: 120px;
+        padding: 50px;
+
+
+        .item {
+            text-align: center;
+
+            .descuento {
+                color: purple
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+
+            p {
+                margin-top: 0.5rem
+            }
+
+            button {
+                @include estilo-boton;
+            }
+        }
+
+        .item-1 {
+            display: none;
+            grid-area: item-1;
+        }
+    }
+
+
+
+
+
+    .titulo-index-principal {
+        display: block;
+        h1 {
+            text-align: center;
+        }
+        .container-boton {
+            display: flex;
+            justify-content: end;
+            position: relative;
+            top: 2.5rem;
+            right: 1rem;
+            .boton-ofertas {
+                width: 10rem;
+                height: 2.5rem;
+                border-radius: 0.7rem;
+                color: aliceblue;
+                background-color: #272829;
+            }
+        }
+
+
+    }
+}
+
+// Estilos del section
+
+.section-index {
+
+    .container-lista {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        gap: 120px;
+        padding: 50px;
+        position: relative;
+        overflow: hidden;
+
+        .lista {
+            img {
+                width: 100%;
+                height: auto;
+                transform: 0.3s, box-shadow 0, 3s;
+                object-fit: contain;
+            }
+
+            p {
+                margin-top: 2rem;
+                text-align: center;
+                font-size: 50px;
+                z-index: 2000;
+            }
+        }
+
+        .lista:hover {
+            img {
+                transform: scale(1.1);
+                box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+            }
+        }
+    }
+}
+
+// Estilos del footer
+
+footer {
+    @extend %estilo-footer;
+}
+

@@ -1,0 +1,136 @@
+%estilo-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-template-areas:
+        "Contactos Metodos"
+        "Telefono Metodos";
+    background-color: #F8F9FA;
+    padding: 20px;
+
+    h3 {
+        margin-bottom: 10px;
+    }
+
+    .contactos {
+        grid-area: Contactos;
+        margin-left: 68px;
+    }
+
+    .telefono {
+        margin-top: 10px;
+        grid-area: Telefono;
+        margin-left: 68px;
+    }
+
+    .metodos-pago {
+        grid-area: Metodos;
+        margin-top: 25px;
+
+
+        .metodos-pago-texto {
+            display: flex;
+            justify-content: center;
+            margin-right: 300px;
+        }
+
+
+        .metodos-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-right: 300px;
+
+
+            .metodo-1,
+            .metodo-2,
+            .metodo-3,
+            .metodo-4,
+            .metodo-5,
+            .metodo-6 {
+                width: 3rem;
+                height: 3rem;
+                margin-right: 1rem;
+
+                img{
+                    height: 3rem;
+                    width: 3rem;
+                    border-radius: 3rem;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+%estilo-header {
+    background-color: #F8F8F8;
+
+    .navbar {
+        .container-fluid {
+            .navbar-brand {
+                .logo-empresa {
+                    max-width: 240px;
+                }
+            }
+
+            .navbar {
+                .container-fluid {
+                    .collapse {
+                        .collapse {
+                            .navbar-nav {
+                                .nav-item {
+                                    .dropdown-menu {
+                                        li:active {
+                                            .dropdown-item:active {
+                                                background-color: #F8F8F8;
+                                                color: black;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+%estilo-header-pages {
+    background-color: #F8F8F8;
+
+    .navbar {
+        .container-fluid {
+            .navbar-brand {
+                .logo-empresa {
+                    max-width: 240px;
+                }
+            }
+
+            .navbar {
+                .container-fluid {
+                    .collapse {
+                        .navbar-nav {
+                            .nav-item {
+                                .dropdown-menu {
+                                    li:active {
+                                        .dropdown-item:active {
+                                            background-color: #F8F8F8;
+                                            color: black;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}

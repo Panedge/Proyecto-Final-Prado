@@ -1,0 +1,64 @@
+@import "../Utilidades/mixin";
+@import "../Utilidades/Extend";
+@import "../Utilidades/variables";
+// Estilos del header
+
+header {
+    @extend %estilo-header-pages;
+}
+
+// Main carrito
+
+.main-carrito {
+    .fondo-carrito {
+        position: relative;
+        height: 50rem;
+
+        .fondo-carrito-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.7;
+            z-index: -1;
+        }
+
+        .contenedor-micarrito {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 38rem;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #f9f9f9;
+            position: relative;
+            top: 25%;
+
+            .productos-carrito {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                width: 100%;
+                margin-bottom: 20px;
+
+                .producto {
+                    img {
+                        margin-top: 10px;
+                        width: 8.75rem;
+                        height: 8.75rem;    
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Estilos del footer
+
+footer {
+    @extend %estilo-footer;
+}

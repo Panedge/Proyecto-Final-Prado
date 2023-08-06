@@ -1,0 +1,690 @@
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "Contactos Metodos" "Telefono Metodos";
+  background-color: #F8F9FA;
+  padding: 20px; }
+  footer h3 {
+    margin-bottom: 10px; }
+  footer .contactos {
+    grid-area: Contactos;
+    margin-left: 68px; }
+  footer .telefono {
+    margin-top: 10px;
+    grid-area: Telefono;
+    margin-left: 68px; }
+  footer .metodos-pago {
+    grid-area: Metodos;
+    margin-top: 25px; }
+    footer .metodos-pago .metodos-pago-texto {
+      display: flex;
+      justify-content: center;
+      margin-right: 300px; }
+    footer .metodos-pago .metodos-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-right: 300px; }
+      footer .metodos-pago .metodos-container .metodo-1,
+      footer .metodos-pago .metodos-container .metodo-2,
+      footer .metodos-pago .metodos-container .metodo-3,
+      footer .metodos-pago .metodos-container .metodo-4,
+      footer .metodos-pago .metodos-container .metodo-5,
+      footer .metodos-pago .metodos-container .metodo-6 {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem; }
+        footer .metodos-pago .metodos-container .metodo-1 img,
+        footer .metodos-pago .metodos-container .metodo-2 img,
+        footer .metodos-pago .metodos-container .metodo-3 img,
+        footer .metodos-pago .metodos-container .metodo-4 img,
+        footer .metodos-pago .metodos-container .metodo-5 img,
+        footer .metodos-pago .metodos-container .metodo-6 img {
+          height: 3rem;
+          width: 3rem;
+          border-radius: 3rem;
+          object-fit: contain; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+.main-index .container-imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 120px;
+  padding: 50px; }
+  .main-index .container-imagenes .item {
+    text-align: center; }
+    .main-index .container-imagenes .item .descuento {
+      color: purple; }
+    .main-index .container-imagenes .item img {
+      width: 100%;
+      height: auto;
+      object-fit: contain; }
+    .main-index .container-imagenes .item p {
+      margin-top: 0.5rem; }
+    .main-index .container-imagenes .item button {
+      display: flex;
+      width: 50%;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      margin: auto;
+      margin-top: 15px;
+      background-color: #272829;
+      border-radius: 1rem;
+      color: white;
+      border: none;
+      cursor: pointer; }
+  .main-index .container-imagenes .item-1 {
+    display: none;
+    grid-area: item-1; }
+
+.main-index .titulo-index-principal {
+  display: block; }
+  .main-index .titulo-index-principal h1 {
+    text-align: center; }
+  .main-index .titulo-index-principal .container-boton {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 2.5rem;
+    right: 1rem; }
+    .main-index .titulo-index-principal .container-boton .boton-ofertas {
+      width: 10rem;
+      height: 2.5rem;
+      border-radius: 0.7rem;
+      color: aliceblue;
+      background-color: #272829; }
+
+.section-index .container-lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 120px;
+  padding: 50px;
+  position: relative;
+  overflow: hidden; }
+  .section-index .container-lista .lista img {
+    width: 100%;
+    height: auto;
+    transform: 0.3s, box-shadow 0, 3s;
+    object-fit: contain; }
+  .section-index .container-lista .lista p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 50px;
+    z-index: 2000; }
+  .section-index .container-lista .lista:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); }
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "Contactos Metodos" "Telefono Metodos";
+  background-color: #F8F9FA;
+  padding: 20px; }
+  footer h3 {
+    margin-bottom: 10px; }
+  footer .contactos {
+    grid-area: Contactos;
+    margin-left: 68px; }
+  footer .telefono {
+    margin-top: 10px;
+    grid-area: Telefono;
+    margin-left: 68px; }
+  footer .metodos-pago {
+    grid-area: Metodos;
+    margin-top: 25px; }
+    footer .metodos-pago .metodos-pago-texto {
+      display: flex;
+      justify-content: center;
+      margin-right: 300px; }
+    footer .metodos-pago .metodos-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-right: 300px; }
+      footer .metodos-pago .metodos-container .metodo-1,
+      footer .metodos-pago .metodos-container .metodo-2,
+      footer .metodos-pago .metodos-container .metodo-3,
+      footer .metodos-pago .metodos-container .metodo-4,
+      footer .metodos-pago .metodos-container .metodo-5,
+      footer .metodos-pago .metodos-container .metodo-6 {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem; }
+        footer .metodos-pago .metodos-container .metodo-1 img,
+        footer .metodos-pago .metodos-container .metodo-2 img,
+        footer .metodos-pago .metodos-container .metodo-3 img,
+        footer .metodos-pago .metodos-container .metodo-4 img,
+        footer .metodos-pago .metodos-container .metodo-5 img,
+        footer .metodos-pago .metodos-container .metodo-6 img {
+          height: 3rem;
+          width: 3rem;
+          border-radius: 3rem;
+          object-fit: contain; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+.main-lista .container-imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 200px;
+  padding: 120px; }
+  .main-lista .container-imagenes .item-1 {
+    visibility: hidden;
+    grid-area: item-1; }
+  .main-lista .container-imagenes .item .descuento {
+    color: purple; }
+  .main-lista .container-imagenes .item a {
+    text-decoration: none; }
+  .main-lista .container-imagenes .item p {
+    text-align: center; }
+  .main-lista .container-imagenes .item img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain; }
+  .main-lista .container-imagenes .item button {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #272829;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    cursor: pointer; }
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "Contactos Metodos" "Telefono Metodos";
+  background-color: #F8F9FA;
+  padding: 20px; }
+  footer h3 {
+    margin-bottom: 10px; }
+  footer .contactos {
+    grid-area: Contactos;
+    margin-left: 68px; }
+  footer .telefono {
+    margin-top: 10px;
+    grid-area: Telefono;
+    margin-left: 68px; }
+  footer .metodos-pago {
+    grid-area: Metodos;
+    margin-top: 25px; }
+    footer .metodos-pago .metodos-pago-texto {
+      display: flex;
+      justify-content: center;
+      margin-right: 300px; }
+    footer .metodos-pago .metodos-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-right: 300px; }
+      footer .metodos-pago .metodos-container .metodo-1,
+      footer .metodos-pago .metodos-container .metodo-2,
+      footer .metodos-pago .metodos-container .metodo-3,
+      footer .metodos-pago .metodos-container .metodo-4,
+      footer .metodos-pago .metodos-container .metodo-5,
+      footer .metodos-pago .metodos-container .metodo-6 {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem; }
+        footer .metodos-pago .metodos-container .metodo-1 img,
+        footer .metodos-pago .metodos-container .metodo-2 img,
+        footer .metodos-pago .metodos-container .metodo-3 img,
+        footer .metodos-pago .metodos-container .metodo-4 img,
+        footer .metodos-pago .metodos-container .metodo-5 img,
+        footer .metodos-pago .metodos-container .metodo-6 img {
+          height: 3rem;
+          width: 3rem;
+          border-radius: 3rem;
+          object-fit: contain; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+.main-ofertas .titulo-ofertas-principal .h1-ofertas {
+  text-align: center;
+  padding: 30px; }
+
+.main-ofertas .container-imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 120px;
+  padding: 50px; }
+  .main-ofertas .container-imagenes .item .descuento {
+    color: purple; }
+  .main-ofertas .container-imagenes .item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; }
+  .main-ofertas .container-imagenes .item p {
+    text-align: center; }
+  .main-ofertas .container-imagenes .item button {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #272829;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    cursor: pointer; }
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "Contactos Metodos" "Telefono Metodos";
+  background-color: #F8F9FA;
+  padding: 20px; }
+  footer h3 {
+    margin-bottom: 10px; }
+  footer .contactos {
+    grid-area: Contactos;
+    margin-left: 68px; }
+  footer .telefono {
+    margin-top: 10px;
+    grid-area: Telefono;
+    margin-left: 68px; }
+  footer .metodos-pago {
+    grid-area: Metodos;
+    margin-top: 25px; }
+    footer .metodos-pago .metodos-pago-texto {
+      display: flex;
+      justify-content: center;
+      margin-right: 300px; }
+    footer .metodos-pago .metodos-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-right: 300px; }
+      footer .metodos-pago .metodos-container .metodo-1,
+      footer .metodos-pago .metodos-container .metodo-2,
+      footer .metodos-pago .metodos-container .metodo-3,
+      footer .metodos-pago .metodos-container .metodo-4,
+      footer .metodos-pago .metodos-container .metodo-5,
+      footer .metodos-pago .metodos-container .metodo-6 {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem; }
+        footer .metodos-pago .metodos-container .metodo-1 img,
+        footer .metodos-pago .metodos-container .metodo-2 img,
+        footer .metodos-pago .metodos-container .metodo-3 img,
+        footer .metodos-pago .metodos-container .metodo-4 img,
+        footer .metodos-pago .metodos-container .metodo-5 img,
+        footer .metodos-pago .metodos-container .metodo-6 img {
+          height: 3rem;
+          width: 3rem;
+          border-radius: 3rem;
+          object-fit: contain; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+.main-carrito .fondo-carrito {
+  position: relative;
+  height: 50rem; }
+  .main-carrito .fondo-carrito .fondo-carrito-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    z-index: -1; }
+  .main-carrito .fondo-carrito .contenedor-micarrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 38rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+    position: relative;
+    top: 25%; }
+    .main-carrito .fondo-carrito .contenedor-micarrito .productos-carrito {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 20px; }
+      .main-carrito .fondo-carrito .contenedor-micarrito .productos-carrito .producto img {
+        margin-top: 10px;
+        width: 8.75rem;
+        height: 8.75rem; }
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "Contactos Metodos" "Telefono Metodos";
+  background-color: #F8F9FA;
+  padding: 20px; }
+  footer h3 {
+    margin-bottom: 10px; }
+  footer .contactos {
+    grid-area: Contactos;
+    margin-left: 68px; }
+  footer .telefono {
+    margin-top: 10px;
+    grid-area: Telefono;
+    margin-left: 68px; }
+  footer .metodos-pago {
+    grid-area: Metodos;
+    margin-top: 25px; }
+    footer .metodos-pago .metodos-pago-texto {
+      display: flex;
+      justify-content: center;
+      margin-right: 300px; }
+    footer .metodos-pago .metodos-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-right: 300px; }
+      footer .metodos-pago .metodos-container .metodo-1,
+      footer .metodos-pago .metodos-container .metodo-2,
+      footer .metodos-pago .metodos-container .metodo-3,
+      footer .metodos-pago .metodos-container .metodo-4,
+      footer .metodos-pago .metodos-container .metodo-5,
+      footer .metodos-pago .metodos-container .metodo-6 {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem; }
+        footer .metodos-pago .metodos-container .metodo-1 img,
+        footer .metodos-pago .metodos-container .metodo-2 img,
+        footer .metodos-pago .metodos-container .metodo-3 img,
+        footer .metodos-pago .metodos-container .metodo-4 img,
+        footer .metodos-pago .metodos-container .metodo-5 img,
+        footer .metodos-pago .metodos-container .metodo-6 img {
+          height: 3rem;
+          width: 3rem;
+          border-radius: 3rem;
+          object-fit: contain; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+header {
+  background-color: #F8F8F8; }
+  header .navbar .container-fluid .navbar-brand .logo-empresa {
+    max-width: 240px; }
+  header .navbar .container-fluid .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu li:active .dropdown-item:active {
+    background-color: #F8F8F8;
+    color: black; }
+
+.main-producto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  padding: 80px; }
+  .main-producto h2 {
+    text-align: center;
+    padding-bottom: 30px; }
+  .main-producto .columna-caracteristicas {
+    width: auto; }
+    .main-producto .columna-caracteristicas p {
+      font-size: 1.2rem;
+      text-align: center; }
+    .main-producto .columna-caracteristicas h3 {
+      text-align: center;
+      padding-top: 2rem; }
+    .main-producto .columna-caracteristicas ul {
+      padding-left: 4rem; }
+      .main-producto .columna-caracteristicas ul li {
+        font-size: 1.2rem; }
+  .main-producto .columna-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .main-producto .columna-producto .container-producto img {
+      width: 30rem;
+      height: 30rem;
+      object-fit: contain; }
+    .main-producto .columna-producto .container-botones {
+      display: flex;
+      gap: 0.4rem;
+      justify-content: center;
+      margin-top: 1rem; }
+      .main-producto .columna-producto .container-botones button {
+        display: inline-block;
+        background-color: #272829;
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        padding: 10px 16px;
+        text-align: center; }
+
+@media screen and (max-width: 600px) {
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    footer .contactos {
+      margin-left: 0; }
+    footer .telefono {
+      margin-left: 0; }
+    footer .metodos-pago {
+      width: 100%; }
+      footer .metodos-pago .metodos-pago-texto {
+        width: 100%; }
+      footer .metodos-pago .metodos-container {
+        width: 100%; }
+  .main-index,
+  .main-lista,
+  .main-ofertas {
+    width: 100%; }
+    .main-index .container-imagenes,
+    .main-lista .container-imagenes,
+    .main-ofertas .container-imagenes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      padding: 25px; }
+      .main-index .container-imagenes .item,
+      .main-lista .container-imagenes .item,
+      .main-ofertas .container-imagenes .item {
+        text-align: center; }
+        .main-index .container-imagenes .item img,
+        .main-lista .container-imagenes .item img,
+        .main-ofertas .container-imagenes .item img {
+          width: 100%; }
+    .main-index .titulo-index-principal .boton-ofertas,
+    .main-lista .titulo-index-principal .boton-ofertas,
+    .main-ofertas .titulo-index-principal .boton-ofertas {
+      display: none; }
+  .main-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem; }
+    .main-producto .columna-producto img {
+      width: 100%; }
+    .main-producto .columna-caracteristicas {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0; }
+  .section-index {
+    width: 100%; }
+    .section-index .container-lista {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      padding: 40px;
+      max-width: 500px; }
+      .section-index .container-lista .lista img {
+        width: 100%;
+        height: auto; }
+  .main-carrito .fondo-carrito .contenedor-micarrito {
+    position: relative;
+    top: 12.5%; }
+    .main-carrito .fondo-carrito .contenedor-micarrito .productos-carrito {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem; }
+      .main-carrito .fondo-carrito .contenedor-micarrito .productos-carrito .producto h3 {
+        text-align: center; }
+      .main-carrito .fondo-carrito .contenedor-micarrito .productos-carrito .producto img {
+        margin-left: 25%; }
+      .main-carrito .fondo-carrito .contenedor-micarrito .productos-carrito .producto p {
+        text-align: center; } }
+
+@media screen and (max-width: 1024px) {
+  .main-index .container-imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main-index .container-imagenes .item-1 {
+      display: block; }
+  .main-index .titulo-index-principal .boton-ofertas {
+    display: none; }
+  .section-index .container-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    width: 100%; }
+    .section-index .container-lista .lista img {
+      width: 100%;
+      height: auto; }
+  .main-lista .container-imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 1rem; }
+  .main-ofertas .container-imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding: 1rem; }
+    .main-ofertas .container-imagenes .item img {
+      width: 100%; }
+  .main-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem; }
+    .main-producto .columna-producto .container-producto {
+      display: flex;
+      justify-content: center; }
+    .main-producto .columna-producto .container-botones {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 5rem; }
+    .main-producto .columna-caracteristicas {
+      text-align: center;
+      width: auto;
+      margin-left: 10%;
+      margin-right: 10%; }
+      .main-producto .columna-caracteristicas ul .li-caracteristicas {
+        text-align: start; }
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    footer .contactos {
+      margin-left: 0; }
+    footer .telefono {
+      margin-left: 0; }
+    footer .metodos-pago {
+      width: 100%; }
+      footer .metodos-pago .metodos-pago-texto {
+        width: 100%; }
+      footer .metodos-pago .metodos-container {
+        width: 100%; } }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Carrito - Pagina de ropa front</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../images/Phitra.png" alt="Logotipo de la empresa" class="logo-empresa">
+        </a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation" class="nav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Ver más
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../pages/carrito.html">Mi carrito</a></li>
+                    <li><a class="dropdown-item" href="../pages/producto-2bm.html">Producto ejemplo</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="../pages/lista.html">Ropa General</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/ofertas.html">Promociones</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+  <main class="main-carrito">
+    <div class="fondo-carrito">
+      <img src="../images/fondo-1.jpeg" alt="Fondo de la pag mi carrito" class="fondo-carrito-img">
+      <div class="contenedor-micarrito">
+        <h2>Mi carrito</h2>
+        <div class="productos-carrito">
+          <div class="producto">
+            <h3>Producto 1</h3>
+            <img src="../images/calzado-formal-hombre.png" alt="Producto 1 del carrito, calzado formal de  homrbe">
+            <p><b>Precio: $220</b></p>
+            <p>Calzado formal de hombre, color negro</p>
+          </div>
+          <div class="producto">
+            <h3>Producto 2</h3>
+            <img src="../images/Calzado-formal-mujer.jpg" alt="Producto 2 del carrito, calzado de hombre">
+            <p><b>Precio: $180</b></p>
+            <p>Calzado formal de mujer, color negro</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section>
+  </section>
+  <footer>
+    <div class="contactos">
+      <h3>Contactos</h3>
+      <p>Email: <span>lorem@gmail.com</span></p>
+    </div>
+    <div class="telefono">
+      <h3>Telefono:</h3>
+      <p>11 1234 5432</p>
+    </div>
+    <div class="metodos-pago">
+      <h3 class="metodos-pago-texto">Metodos de pago</h3>
+      <div class="metodos-container">
+        <div class="metodo-1">
+          <img src="../images/mastercard-logo-footer.png" alt="Lgoo de Mastercard, que indica que se puede usar como  medio de pago">
+        </div>
+        <div class="metodo-2">
+          <img src="../images/visa-logo-footer.png" alt="Logo de Visa, que indica que se puede usar como medio de pago">
+        </div>
+        <div class="metodo-3">
+          <img src="../images/efectivo-logo.png" alt="Logo del Efectivo, que indica que se puede usar como medio de pago">
+        </div>
+        <div class="metodo-4">
+          <img src="../images/bitcoin-logo-footer.png" alt="Logo de Bitcoin, que indica que se puede usar como medio de pago">
+        </div>
+        <div class="metodo-5">
+          <img src="../images/rapipago-logo-footer.png" alt="Logo de Rapipágo, que indica que se puede usar como medio de pago">
+        </div>
+        <div class="metodo-6">
+          <img src="../images/paypal-logo-footer.png" alt="Logo de Paypal, que indica que se puede usar como medio de pago">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Script bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
